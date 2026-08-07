@@ -1,0 +1,39 @@
+{
+  "timestamp": "2026-06-21T23:52:33",
+  "argv": [
+    "/home/patrick/per_aptamer_extract_v3.py",
+    "--archive",
+    "/home/patrick/af_data_archive",
+    "--sequences",
+    "/home/patrick/aptamer_sequences.csv"
+  ],
+  "archive": "/home/patrick/af_data_archive",
+  "module_path": "/home/patrick/analyze_aptamer_comprehensive.py",
+  "module_sha256": "93d8c7341184c1cd54c6f0c76b933824bdaea392b215e29fe7c328967a33bb0d",
+  "conditions": [
+    "buffer_optimized",
+    "buffer_proportional",
+    "Mg0",
+    "Mg2",
+    "Mg4",
+    "Mg6",
+    "Mg8",
+    "Mg10"
+  ],
+  "expected_per_target": 71,
+  "strict": true,
+  "chain_check": true,
+  "complete": true,
+  "warnings": [],
+  "n_predictions": 51120,
+  "aptamers_per_condition": {
+    "buffer_optimized": 71,
+    "buffer_proportional": 71,
+    "Mg0": 71,
+    "Mg2": 71,
+    "Mg4": 71,
+    "Mg6": 71,
+    "Mg8": 71,
+    "Mg10": 71
+  }
+}

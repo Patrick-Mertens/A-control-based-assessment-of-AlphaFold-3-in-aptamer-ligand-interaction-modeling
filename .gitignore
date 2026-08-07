@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Editor/temp files
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Generated AlphaFold 3 intermediates
+generated_inputs/
+af3_inputs/
+afinput*/
+*_data.json
+
+# Raw AlphaFold 3 outputs
+afoutput*/
+raw_final_outputs/
+*.cif
